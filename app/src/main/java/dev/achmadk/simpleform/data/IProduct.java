@@ -1,10 +1,10 @@
 package dev.achmadk.simpleform.data;
 
 public interface IProduct {
-    public String productName = "";
+    String productName = "";
 
-    public void getProduct();
+    void getProduct();
 
-    public String getProductName();
+    String getProductName();
 }
 
